@@ -68,22 +68,16 @@ div.a{
     font-weight: bold;
 }
 
-
-
-
-
-
+.logo_name{
+    color: white;
+}
 .log_out{
     float: right;
     position: absolute;
     top: 8px;
     right: 16px;
     color: white;
-    
 }
-
-
-
 
 .navbar {
   overflow: hidden;
@@ -145,3 +139,48 @@ div.a{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.form{
+    max-width:500px;
+    margin:auto;
+}
+
+.input-container {
+    display: -ms-flexbox; 
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+  
+  
+  .btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
