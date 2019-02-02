@@ -57,7 +57,7 @@ div.a{
     border: none;
 }
 
-.form_div input[type="submit"]{
+.form_div input[type="button"]{
     height: 30px;
     border: none;
     border-radius: 2px;
