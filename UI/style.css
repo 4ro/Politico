@@ -27,11 +27,6 @@ body{
   font-family: Courier New;
 }
 
-.b{
-  color: aliceblue;
-  font-size: larger;    
-}
-
 div.a{
   line-height: 0;
 }
@@ -57,14 +52,18 @@ div.a{
 }
 
 .form_div input[type="button"]{
-  height: 30px;
+  background-color: black;
   border: none;
-  border-radius: 2px;
-  font-size: 17px;
-  background-color: blue;
-  border-bottom: 3px blue;
   color: white;
-  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 20px;
 }
 
 .logo_name{
@@ -193,3 +192,24 @@ div.a{
   opacity: 0.9;
 }
 
+.butt{
+  background-color: darkblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.fa-user-secret{
+  float: left;
+  padding: 0px 10px;
+  margin-top: -8%;
+  font-size: 35px;
+  color:black;
+}
