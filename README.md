@@ -1,5 +1,13 @@
 POLITICO WEBSITE
 ===
+* Politico is an electoral platform which both the voter and politician
+  can use to either vote or declare interest and vie for a Government 
+  office.
+* Politico enables citizens give their mandate to politicians running
+  for different government offices while building trust in the process
+  through tranparency.
+
+
 
 FEATURES
 --- 
